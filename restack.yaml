@@ -1,9 +1,9 @@
+---
 project:
   name: job-assistant-api
   runtime: python
-  entrypoint: api:app
+  entrypoint: app:app
   port: 8000
-
 packages:
   - fastapi
   - uvicorn
