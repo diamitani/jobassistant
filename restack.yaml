@@ -1,0 +1,12 @@
+project:
+  name: job-assistant-api
+  runtime: python
+  entrypoint: api:app
+  port: 8000
+
+packages:
+  - fastapi
+  - uvicorn
+  - python-multipart
+  - requests
+  - beautifulsoup4
