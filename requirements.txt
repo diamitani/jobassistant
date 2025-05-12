@@ -1,5 +1,5 @@
-fastapi
-uvicorn
-python-multipart
-requests
-beautifulsoup4
+fastapi==0.109.2
+uvicorn==0.27.0
+python-multipart==0.0.7
+requests==2.31.0
+beautifulsoup4==4.12.0
